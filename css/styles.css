@@ -1,0 +1,98 @@
+body {
+   color: #757575;
+   background-color: #E5E5E5;
+}
+
+header {
+   background-color: #fff;
+}
+
+.main-accent {
+   color: #2196F3;
+}
+
+.logo-header {
+   color: #000000;
+}
+
+.logo-header:hover,
+.logo-header:focus,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+   color: #2196F3;
+;
+}
+
+.site-nav .link {
+   color: #212121;
+}
+
+.contacts-header .link {
+   color: #757575;
+}
+
+.list {
+   list-style: none;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+.section-title {
+   color: #212121;
+}
+
+/* To DO */
+.below > .section-title {
+   font-size: small;
+}
+
+.team {
+   background-color: #F5F4FA;
+}
+
+.hero-title {
+   color: #FFFFFF;
+}
+
+.hero-btn {
+   color: #FFFFFF;
+   background-color: #2196F3;
+}
+
+.hero,
+footer {
+   background-color: #2F303A;
+}
+
+.map-link,
+.logo-footer {
+   color: #FFFFFF;
+}
+
+.contacts-footer .link {
+   color: rgba(255,255,255,0.6);
+}
+
+.logo-footer:hover,
+.logo-footer:focus,
+.map-link:hover,
+.map-link:focus,
+.contacts-footer .link:hover,
+.contacts-footer .link:focus {
+   color: #2196F3;
+}
+
+/* title color #212121;*/
+
+/* hero + footer white color: #FFFFFF;*/
+/* selection + accent color: #2196F3;
+/* footer mail + tel color: rgba(255,255,255,0.6); */
+/* main text + link color: #757575; */
+/* logo ...Studio color: #000000;*/
+/* background header #FFFFFF; */
+/* background my team: #F5F4FA; */
+/* background hero, footer: #2F303A */
