@@ -1,0 +1,229 @@
+/* Палитра */
+
+:root {
+   --accent-color: #2196F3;
+   --header-hero-color: #FFFFFF;
+   --title-color: #212121;
+   --footer-contacts-color: rgba(255,255,255,0.6);
+   --main-text-color: #757575;
+   --header-studio-color: #000000;
+   --bcg-team-color: #F5F4FA;
+   --bcg-hero-footer-color: #2F303A;
+   --bcg-body-color: #E5E5E5;
+}
+
+/* Общие стили для хедера (лого, навигация контакты)*/
+
+body {
+   color: var(--main-text-color);
+   background-color: var(--bcg-body-color);
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 0.03em;
+}
+
+header {
+   background-color: var(--header-hero-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+}
+
+.logo-accent {
+   color: var(--accent-color);
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+}
+
+.logo-header {
+   color: var(--header-studio-color);
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+}
+
+.logo-header:hover,
+.logo-header:focus,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+   color: var(--accent-color);
+}
+
+.site-nav .link {
+   color: var(--title-color);
+}
+
+.site-nav .link.current {
+   color: var(--accent-color);
+}
+
+.contacts-header .link {
+   color: var(--main-text-color);
+}
+
+/* Общие стили для основного контента */
+
+.list {
+   list-style: none;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+.section-title-main {
+   color: var(--title-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.2;
+   text-align: center;
+}
+
+button {
+   font-family: inherit;
+   cursor: pointer;
+}
+
+/* Основной контент страницы "Студия" */
+
+/* Герой */ 
+
+.hero-title {
+   color: var(--header-hero-color);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.4;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+
+.hero-button {
+   color: var(--header-hero-color);
+   background-color: var(--accent-color);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 2;
+   text-align: center;
+   letter-spacing: 0.06em;
+
+}
+
+.hero-button:hover,
+.hero-button:focus {
+   color: var(--accent-color);
+   background-color: var(--header-hero-color);
+}
+
+.hero,
+footer {
+   background-color: var(--bcg-hero-footer-color);
+}
+
+/* Преимущества */
+
+.section-title-benefits {
+color: var(--title-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.section-text-benefits {
+   font-size: 14px;
+   line-height: 1.7;   
+}
+
+/* Команда*/
+
+.team {
+   background-color: var(--bcg-team-color);
+}
+
+.section-title-team {
+   color: var(--title-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.2;
+}
+
+.section-text-team {
+   font-size: 16px;
+   line-height: 1.2;
+}
+
+/* Общие стили для футера */
+
+footer {
+   font-family: 'Roboto', sans-serif;
+}
+
+.logo-footer {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+}
+
+.map-link,
+.logo-footer {
+   color: var(--header-hero-color);
+}
+
+.contacts-footer .link {
+   color: var(--footer-contacts-color);
+}
+
+
+/* Добавлен font-style: normal; тк по умолчанию Italic показывает */
+.map-link,
+.contacts-footer {
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+}
+
+.logo-footer:hover,
+.logo-footer:focus,
+.map-link:hover,
+.map-link:focus,
+.contacts-footer .link:hover,
+.contacts-footer .link:focus {
+   color: var(--accent-color);
+}
+
+/* Основной контент страницы "Портфолио"  */
+
+.portfolio-button {
+   color: var(--title-color);
+   background-color: var(--bcg-team-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.6;
+   text-align: center;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+   color: var(--header-hero-color);
+   background-color: var(--accent-color);
+}
+
+.section-title-project {
+   color: var(--title-color);
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+
+.section-text-project {
+   font-size: 16px;
+   line-height: 2;
+}
